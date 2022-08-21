@@ -28,7 +28,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     List<Map<String, Object>> questions = [
       {
-        "questionText": 'What\'s your favorite color?',
+        "questionText": 'What\'s you favorite color?',
         "answers": ['Black', 'Red', 'Green', 'White'],
       },
       {
@@ -41,7 +41,6 @@ class _MyAppState extends State<MyApp> {
       }
     ];
 
-    
     return MaterialApp(
       home: Scaffold(
           appBar: AppBar(
